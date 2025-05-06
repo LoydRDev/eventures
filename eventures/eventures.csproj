@@ -60,6 +60,7 @@
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
@@ -107,6 +108,24 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="JoinEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoinEvent.Designer.cs">
+      <DependentUpon>JoinEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyEvents.Designer.cs">
+      <DependentUpon>MyEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizeEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrganizeEvent.Designer.cs">
+      <DependentUpon>OrganizeEvent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BrowseEvent.resx">
@@ -114,6 +133,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JoinEvent.resx">
+      <DependentUpon>JoinEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyEvents.resx">
+      <DependentUpon>MyEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrganizeEvent.resx">
+      <DependentUpon>OrganizeEvent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
