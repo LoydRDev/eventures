@@ -96,52 +96,79 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BrowseEvent.cs">
+    <Compile Include="Forms\BrowseEvent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BrowseEvent.Designer.cs">
+    <Compile Include="Forms\BrowseEvent.Designer.cs">
       <DependentUpon>BrowseEvent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard.cs">
+    <Compile Include="Forms\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard.Designer.cs">
+    <Compile Include="Forms\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="JoinEvent.cs">
+    <Compile Include="Forms\FrontPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JoinEvent.Designer.cs">
+    <Compile Include="Forms\FrontPage.Designer.cs">
+      <DependentUpon>FrontPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JoinEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JoinEvent.Designer.cs">
       <DependentUpon>JoinEvent.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyEvents.cs">
+    <Compile Include="Forms\LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MyEvents.Designer.cs">
+    <Compile Include="Forms\LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MyEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MyEvents.Designer.cs">
       <DependentUpon>MyEvents.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrganizeEvent.cs">
+    <Compile Include="Forms\OrganizeEvent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrganizeEvent.Designer.cs">
+    <Compile Include="Forms\OrganizeEvent.Designer.cs">
       <DependentUpon>OrganizeEvent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BrowseEvent.resx">
+    <Compile Include="Forms\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\BrowseEvent.resx">
       <DependentUpon>BrowseEvent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard.resx">
+    <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JoinEvent.resx">
+    <EmbeddedResource Include="Forms\FrontPage.resx">
+      <DependentUpon>FrontPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JoinEvent.resx">
       <DependentUpon>JoinEvent.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyEvents.resx">
+    <EmbeddedResource Include="Forms\LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MyEvents.resx">
       <DependentUpon>MyEvents.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrganizeEvent.resx">
+    <EmbeddedResource Include="Forms\OrganizeEvent.resx">
       <DependentUpon>OrganizeEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

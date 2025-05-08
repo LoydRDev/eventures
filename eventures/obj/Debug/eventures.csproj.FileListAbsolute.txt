@@ -29,7 +29,6 @@ C:\Users\black\OneDrive\Desktop\eventures\eventures\bin\Debug\System.Text.Json.x
 C:\Users\black\OneDrive\Desktop\eventures\eventures\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\black\OneDrive\Desktop\eventures\eventures\bin\Debug\System.ValueTuple.xml
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.csproj.AssemblyReference.cache
-C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Form1.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Properties.Resources.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.csproj.GenerateResource.cache
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.csproj.CoreCompileInputs.cache
@@ -124,3 +123,11 @@ C:\Users\noemi\Desktop\Visual Studio Repos\eventures_ui\eventures\obj\Debug\even
 C:\Users\noemi\Desktop\Visual Studio Repos\eventures_ui\eventures\obj\Debug\eventures.csproj.Up2Date
 C:\Users\noemi\Desktop\Visual Studio Repos\eventures_ui\eventures\obj\Debug\eventures.exe
 C:\Users\noemi\Desktop\Visual Studio Repos\eventures_ui\eventures\obj\Debug\eventures.pdb
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.BrowseEvent.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Dashboard.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.JoinEvent.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.MyEvents.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.OrganizeEvent.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.FrontPage.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.LoginPage.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Registration.resources
