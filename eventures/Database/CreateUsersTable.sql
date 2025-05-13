@@ -2,9 +2,8 @@ CREATE TABLE Users (
     UserID COUNTER PRIMARY KEY,
     FirstName TEXT(50) NOT NULL,
     LastName TEXT(50) NOT NULL,
-    Email TEXT(100) NOT NULL,
-    PhoneNumber TEXT(15) NOT NULL,
     Username TEXT(50) NOT NULL,
+    Email TEXT(100) NOT NULL,
     [Password] TEXT(100) NOT NULL,
     CreatedDate DATETIME
 );

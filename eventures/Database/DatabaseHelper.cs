@@ -6,8 +6,7 @@ namespace eventures.Database
 {
     internal class DatabaseHelper
     {
-        public static string dbPath = "C:\\Users\\noemi\\Documents\\Eventures.accdb";
-        public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath}";
+        public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Eventures.accdb;Persist Security Info=True";
         public static OleDbConnection connection = null;
 
         public static OleDbConnection GetConnection()
@@ -23,6 +22,8 @@ namespace eventures.Database
         {
             if (connection != null && connection.State == ConnectionState.Closed)
             {
+                connection = new OleDbConnection();
+                connection.ConnectionString = connectionString;
                 connection.Open();
             }
         }
