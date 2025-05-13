@@ -52,19 +52,7 @@ namespace eventures
 
             // Validate Email
             string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
-            if (string.IsNullOrWhiteSpace(TBUserLastName.Text) || !Regex.IsMatch(TBUserLastName.Text, emailPattern))
-            {
-                TBUserLastName.BorderColorIdle = Color.Red;
-                isValid = false;
-            }
-            else
-            {
-                TBUserLastName.BorderColorIdle = Color.FromArgb(1, 88, 122);
-            }
-
-            // Validate Phone Number
-            string phonePattern = @"^\+?[0-9]{10,15}$";
-            if (string.IsNullOrWhiteSpace(TBUserEmail.Text) || !Regex.IsMatch(TBUserEmail.Text, phonePattern))
+            if (string.IsNullOrWhiteSpace(TBUserEmail.Text) || !Regex.IsMatch(TBUserEmail.Text, emailPattern))
             {
                 TBUserEmail.BorderColorIdle = Color.Red;
                 isValid = false;
@@ -86,14 +74,14 @@ namespace eventures
             }
 
             // Validate Password
-            if (string.IsNullOrWhiteSpace(TBUserPassword2.Text) || TBUserPassword2.Text.Length < 6)
+            if (string.IsNullOrWhiteSpace(TBUserPassword.Text) || TBUserPassword.Text.Length < 6)
             {
-                TBUserPassword2.BorderColorIdle = Color.Red;
+                TBUserPassword.BorderColorIdle = Color.Red;
                 isValid = false;
             }
             else
             {
-                TBUserPassword2.BorderColorIdle = Color.FromArgb(1, 88, 122);
+                TBUserPassword.BorderColorIdle = Color.FromArgb(1, 88, 122);
             }
 
             // Validate Password Confirmation
