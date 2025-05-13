@@ -168,7 +168,6 @@ C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Dashboard.resourc
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.FrontPage.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.JoinEvent.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.LoginPage.resources
-C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.MyEvents.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.OrganizeEvent.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Registration.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Properties.Resources.resources
@@ -182,3 +181,8 @@ C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.Cr
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.EventDetails.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.Participants.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.Confirmation.resources
+C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.Confirmation.resources
+C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.DateAndLocation.resources
+C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.EventDetails.resources
+C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.Participants.resources
+C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.EventHistory.resources

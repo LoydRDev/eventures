@@ -10,10 +10,12 @@ CREATE TABLE Events (
     AgeRestriction TEXT(10) NOT NULL,
     Capacity NUMBER NOT NULL,
     CreatorID NUMBER NOT NULL,
-    CreatedDate DATETIME DEFAULT Now(),
+    CreatedDate DATETIME,
     CONSTRAINT fk_creator FOREIGN KEY (CreatorID) REFERENCES Users(UserID)
 );
 
+/* Manually set the CreatedDate's Default Value = "Now()" */
+
 /* Create indexes for frequently accessed columns */
-CREATE INDEX idx_eventdate ON Events(EventDate);
-CREATE INDEX idx_creator ON Events(CreatorID);
+CREATE UNIQUE INDEX idx_eventdate ON Events(EventDate);
+CREATE UNIQUE INDEX idx_creator ON Events(CreatorID);

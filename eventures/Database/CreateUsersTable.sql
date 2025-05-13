@@ -6,8 +6,10 @@ CREATE TABLE Users (
     PhoneNumber TEXT(15) NOT NULL,
     Username TEXT(50) NOT NULL,
     [Password] TEXT(100) NOT NULL,
-    CreatedDate DATETIME DEFAULT Now()
+    CreatedDate DATETIME
 );
+
+/* Manually set the CreatedDate's Default Value = "Now()" */
 
 /* Create indexes for frequently accessed columns */
 CREATE INDEX idx_username ON Users(Username);

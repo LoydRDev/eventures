@@ -6,7 +6,7 @@ namespace eventures.Database
 {
     internal class DatabaseHelper
     {
-        public static string dbPath = "C:\\Users\\noemi\\Documents\\eventure.accdb";
+        public static string dbPath = "C:\\Users\\noemi\\Documents\\Eventures.accdb";
         public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath}";
         public static OleDbConnection connection = null;
 
