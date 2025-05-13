@@ -114,24 +114,34 @@ namespace eventures
         {
             if (ValidateInputs())
             {
-                User newUser = new User
+                int uniqueUserID = new Random().Next(100000, 999999);
+                if (new UserDAO().GetUserByID(uniqueUserID) != null)
                 {
-                    FirstName = TBUserFirstName.Text,
-                    LastName = TBUserLastName.Text,
-                    Username = TBUsername.Text,
-                    Email = TBUserEmail.Text,
-                    Password = TBUserPassword2.Text
-                };
+                    MessageBox.Show("User ID already exists. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                else 
+                {
+                    User newUser = new User
+                    {
+                        UserID = uniqueUserID,
+                        FirstName = TBUserFirstName.Text,
+                        LastName = TBUserLastName.Text,
+                        Username = TBUsername.Text,
+                        Email = TBUserEmail.Text,
+                        Password = TBUserPassword2.Text
+                    };
 
-                try
-                {
-                    new UserDAO().AddUser(newUser);
-                    MessageBox.Show("User created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error creating user: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                    try
+                    {
+                        new UserDAO().AddUser(newUser);
+                        MessageBox.Show("User created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error creating user: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }  
             }
         }
     }

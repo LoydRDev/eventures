@@ -11,10 +11,11 @@ namespace eventures.DataAccess
         {
             using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
             {
-                string query = "INSERT INTO Users (FirstName, LastName, Username, Email, [Password], CreatedDate) VALUES (@FirstName, @LastName, @Username, @Email, @Password, @CreatedDate)";
+                string query = "INSERT INTO Users (UserID, FirstName, LastName, Username, Email, [Password], CreatedDate) VALUES (@UserID, @FirstName, @LastName, @Username, @Email, @Password, @CreatedDate)";
 
                 using (OleDbCommand cmd = new OleDbCommand(query, connection))
                 {
+                    cmd.Parameters.AddWithValue("@UserID", user.UserID);
                     cmd.Parameters.AddWithValue("@FirstName", user.FirstName);
                     cmd.Parameters.AddWithValue("@LastName", user.LastName);
                     cmd.Parameters.AddWithValue("@Username", user.Username);
@@ -58,6 +59,23 @@ namespace eventures.DataAccess
                 }
             }
             return null;
+        }
+        public User GetUserByID(int uniqueUserID)
+        { 
+            return null; 
+        }
+
+        public User GenerateUniqueID()
+        {
+            Random random = new Random();
+            int uniqueUserID = random.Next(100000, 999999);
+            User user = GetUserByID(uniqueUserID);
+            while (user != null)
+            {
+                uniqueUserID = random.Next(100000, 999999);
+                user = GetUserByID(uniqueUserID);
+            }
+            return new User { UserID = uniqueUserID };
         }
     }
 }
