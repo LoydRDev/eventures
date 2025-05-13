@@ -13,9 +13,9 @@ namespace eventures.Forms.CreateEvent
         private DateAndLocation dateAndLocationForm;
         private ErrorProvider errorProvider;
 
-        private string GetAgeRestriction(BunifuGroupBox groupBox)
+        private string GetAgeRestriction(BunifuGroupBox AgeRestriction)
         {
-            foreach (var control in groupBox.Controls)
+            foreach (var control in AgeRestriction.Controls)
             {
                 if (control is BunifuRadioButton radioButton && radioButton.Checked)
                 {
@@ -28,8 +28,8 @@ namespace eventures.Forms.CreateEvent
         public Participants(Event eventData, DateAndLocation dateAndLocationForm)
         {
             InitializeComponent();
-            eventData = eventData;
-            dateAndLocationForm = dateAndLocationForm;
+            this.eventData = eventData;
+            this.dateAndLocationForm = dateAndLocationForm;
             errorProvider = new ErrorProvider();
             errorProvider.BlinkStyle = ErrorBlinkStyle.NeverBlink;
         }
@@ -57,13 +57,13 @@ namespace eventures.Forms.CreateEvent
         {
             if (EventFormValidation.ValidateParticipants(SlotLimitation, errorProvider))
             {
-                eventData.Capacity = int.Parse(SlotLimitation.Text);
                 eventData.AgeRestriction = GetAgeRestriction(AgeRestriction);
-
-                //this.Hide();
-                //var ConfirmationForm = new Confirmation(eventData, this);
-                //ConfirmationForm.Closed += (s, args) => this.Close();
-                //ConfirmationForm.Show();
+                eventData.Capacity = int.Parse(SlotLimitation.Text);
+               
+                this.Hide();
+                var ConfirmationForm = new Confirmation(eventData, this);
+                ConfirmationForm.Closed += (s, args) => this.Close();
+                ConfirmationForm.Show();
             }
         }
     }

@@ -15,8 +15,8 @@ namespace eventures.Forms.CreateEvent
         public DateAndLocation(Event eventData, EventDetails eventDetailsForm)
         {
             InitializeComponent();
-            eventData = eventData;
-            eventDetailsForm = eventDetailsForm;
+            this.eventData = eventData;
+            this.eventDetailsForm = eventDetailsForm;
             errorProvider = new ErrorProvider();
             errorProvider.BlinkStyle = ErrorBlinkStyle.NeverBlink;
         }

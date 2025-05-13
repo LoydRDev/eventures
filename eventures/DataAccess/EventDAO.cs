@@ -2,6 +2,7 @@ using eventures.Models;
 using eventures.Database;
 using System;
 using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace eventures.DataAccess
 {
@@ -9,27 +10,50 @@ namespace eventures.DataAccess
     {
         public void CreateEvent(Event eventObj)
         {
-            using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
+            bool isSuccess = false;
+            try
             {
-                string query = "INSERT INTO Events (EventName, Description, EventDate, EventStart, EventEnd, Location, AgeRestriction, Capacity, Category, CreatorID, CreatedDate) " +
-                               "VALUES (@EventName, @Description, @EventDate, @EventStart, @EventEnd, @Location, @AgeRestriction, @Capacity, @Category, @CreatorID, @CreatedDate)";
-
-                using (OleDbCommand cmd = new OleDbCommand(query, connection))
+                using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
                 {
-                    cmd.Parameters.AddWithValue("@EventName", eventObj.EventName);
-                    cmd.Parameters.AddWithValue("@Description", eventObj.Description);
-                    cmd.Parameters.AddWithValue("@EventDate", eventObj.EventDate);
-                    cmd.Parameters.AddWithValue("@EventStart", eventObj.EventStart);
-                    cmd.Parameters.AddWithValue("@EventEnd", eventObj.EventEnd);
-                    cmd.Parameters.AddWithValue("@Location", eventObj.Location);
-                    cmd.Parameters.AddWithValue("@AgeRestriction", eventObj.AgeRestriction);
-                    cmd.Parameters.AddWithValue("@Capacity", eventObj.Capacity);
-                    cmd.Parameters.AddWithValue("@Category", eventObj.Category);
-                    cmd.Parameters.AddWithValue("@CreatorID", eventObj.CreatorID);
-                    cmd.Parameters.AddWithValue("@CreatedDate", DateTime.Now);
+                    string query = "INSERT INTO Events (EventName, Description, EventDate, EventStart, EventEnd, Location, AgeRestriction, Capacity, Category, CreatorID, DateCreated) " +
+                                   "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-                    connection.Open();
-                    cmd.ExecuteNonQuery();
+                    using (OleDbCommand cmd = new OleDbCommand(query, connection))
+                    {
+                        cmd.Parameters.Add("?", OleDbType.VarWChar).Value = eventObj.EventName;
+                        cmd.Parameters.Add("?", OleDbType.VarWChar).Value = eventObj.Description;
+                        cmd.Parameters.Add("?", OleDbType.Date).Value = eventObj.EventDate;
+                        cmd.Parameters.Add("?", OleDbType.Date).Value = eventObj.EventStart;
+                        cmd.Parameters.Add("?", OleDbType.Date).Value = eventObj.EventEnd;
+                        cmd.Parameters.Add("?", OleDbType.VarWChar).Value = eventObj.Location;
+                        cmd.Parameters.Add("?", OleDbType.Integer).Value = eventObj.AgeRestriction;
+                        cmd.Parameters.Add("?", OleDbType.Integer).Value = eventObj.Capacity;
+                        cmd.Parameters.Add("?", OleDbType.VarWChar).Value = eventObj.Category;
+                        cmd.Parameters.Add("?", OleDbType.Integer).Value = eventObj.CreatorID;
+                        cmd.Parameters.Add("?", OleDbType.Date).Value = DateTime.Now;
+
+
+                        connection.Open();
+                        cmd.ExecuteNonQuery();
+                        connection.Close();
+                    }
+                }
+            }
+            catch (OleDbException ex)
+            {
+                isSuccess = false;
+                MessageBox.Show($"Database error occurred: {ex.Message}\nError code: {ex.ErrorCode}");
+            }
+            catch (Exception ex)
+            {
+                isSuccess = false;
+                MessageBox.Show($"An unexpected error occurred: {ex.Message}");
+            }
+            finally
+            {
+                if (isSuccess)
+                {
+                    // display message
                 }
             }
         }

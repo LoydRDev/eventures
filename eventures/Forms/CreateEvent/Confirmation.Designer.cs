@@ -90,11 +90,13 @@
             this.BtnBack.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
             this.BtnBack.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnBack.ForeColor = System.Drawing.Color.Black;
+            this.BtnBack.IconLeft = null;
             this.BtnBack.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnBack.IconLeftCursor = System.Windows.Forms.Cursors.Default;
             this.BtnBack.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
             this.BtnBack.IconMarginLeft = 11;
             this.BtnBack.IconPadding = 10;
+            this.BtnBack.IconRight = null;
             this.BtnBack.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnBack.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.BtnBack.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
@@ -106,7 +108,8 @@
             this.BtnBack.IdleIconLeftImage = null;
             this.BtnBack.IdleIconRightImage = null;
             this.BtnBack.IndicateFocus = false;
-            this.BtnBack.Location = new System.Drawing.Point(50, 519);
+            this.BtnBack.Location = new System.Drawing.Point(67, 639);
+            this.BtnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnBack.Name = "BtnBack";
             this.BtnBack.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.BtnBack.OnDisabledState.BorderRadius = 1;
@@ -140,7 +143,7 @@
             this.BtnBack.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.BtnBack.OnPressedState.IconLeftImage = null;
             this.BtnBack.OnPressedState.IconRightImage = null;
-            this.BtnBack.Size = new System.Drawing.Size(71, 39);
+            this.BtnBack.Size = new System.Drawing.Size(95, 48);
             this.BtnBack.TabIndex = 80;
             this.BtnBack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.BtnBack.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -180,11 +183,13 @@
             this.BtnCancel.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
             this.BtnCancel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCancel.ForeColor = System.Drawing.Color.Black;
+            this.BtnCancel.IconLeft = null;
             this.BtnCancel.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnCancel.IconLeftCursor = System.Windows.Forms.Cursors.Default;
             this.BtnCancel.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
             this.BtnCancel.IconMarginLeft = 11;
             this.BtnCancel.IconPadding = 10;
+            this.BtnCancel.IconRight = null;
             this.BtnCancel.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnCancel.IconRightCursor = System.Windows.Forms.Cursors.Default;
             this.BtnCancel.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
@@ -196,7 +201,8 @@
             this.BtnCancel.IdleIconLeftImage = null;
             this.BtnCancel.IdleIconRightImage = null;
             this.BtnCancel.IndicateFocus = false;
-            this.BtnCancel.Location = new System.Drawing.Point(309, 519);
+            this.BtnCancel.Location = new System.Drawing.Point(412, 639);
+            this.BtnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.BtnCancel.OnDisabledState.BorderRadius = 1;
@@ -230,7 +236,7 @@
             this.BtnCancel.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.BtnCancel.OnPressedState.IconLeftImage = null;
             this.BtnCancel.OnPressedState.IconRightImage = null;
-            this.BtnCancel.Size = new System.Drawing.Size(71, 39);
+            this.BtnCancel.Size = new System.Drawing.Size(95, 48);
             this.BtnCancel.TabIndex = 78;
             this.BtnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.BtnCancel.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -288,7 +294,8 @@
             this.BtnCreateEvent.IdleIconLeftImage = null;
             this.BtnCreateEvent.IdleIconRightImage = null;
             this.BtnCreateEvent.IndicateFocus = false;
-            this.BtnCreateEvent.Location = new System.Drawing.Point(386, 519);
+            this.BtnCreateEvent.Location = new System.Drawing.Point(515, 639);
+            this.BtnCreateEvent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnCreateEvent.Name = "BtnCreateEvent";
             this.BtnCreateEvent.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.BtnCreateEvent.OnDisabledState.BorderRadius = 1;
@@ -322,7 +329,7 @@
             this.BtnCreateEvent.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.BtnCreateEvent.OnPressedState.IconLeftImage = null;
             this.BtnCreateEvent.OnPressedState.IconRightImage = null;
-            this.BtnCreateEvent.Size = new System.Drawing.Size(73, 39);
+            this.BtnCreateEvent.Size = new System.Drawing.Size(112, 48);
             this.BtnCreateEvent.TabIndex = 77;
             this.BtnCreateEvent.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.BtnCreateEvent.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -338,10 +345,11 @@
             this.LblParticipants.CursorType = null;
             this.LblParticipants.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
             this.LblParticipants.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.LblParticipants.Location = new System.Drawing.Point(47, 109);
+            this.LblParticipants.Location = new System.Drawing.Point(63, 134);
+            this.LblParticipants.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblParticipants.Name = "LblParticipants";
             this.LblParticipants.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblParticipants.Size = new System.Drawing.Size(122, 17);
+            this.LblParticipants.Size = new System.Drawing.Size(148, 21);
             this.LblParticipants.TabIndex = 76;
             this.LblParticipants.Text = "Create Confirmation";
             this.LblParticipants.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -354,10 +362,11 @@
             this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel1.Location = new System.Drawing.Point(47, 28);
+            this.bunifuLabel1.Location = new System.Drawing.Point(63, 34);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(126, 30);
+            this.bunifuLabel1.Size = new System.Drawing.Size(157, 36);
             this.bunifuLabel1.TabIndex = 74;
             this.bunifuLabel1.Text = "Confirmation";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -372,22 +381,25 @@
             this.bunifuSeparator3.LineColor = System.Drawing.Color.DodgerBlue;
             this.bunifuSeparator3.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid;
             this.bunifuSeparator3.LineThickness = 3;
-            this.bunifuSeparator3.Location = new System.Drawing.Point(47, 89);
+            this.bunifuSeparator3.Location = new System.Drawing.Point(63, 110);
+            this.bunifuSeparator3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.bunifuSeparator3.Name = "bunifuSeparator3";
             this.bunifuSeparator3.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal;
-            this.bunifuSeparator3.Size = new System.Drawing.Size(423, 14);
+            this.bunifuSeparator3.Size = new System.Drawing.Size(564, 17);
             this.bunifuSeparator3.TabIndex = 73;
             // 
             // bunifuLabel2
             // 
             this.bunifuLabel2.AllowParentOverrides = false;
             this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel2.Location = new System.Drawing.Point(47, 157);
+            this.bunifuLabel2.Location = new System.Drawing.Point(63, 193);
+            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(78, 17);
+            this.bunifuLabel2.Size = new System.Drawing.Size(93, 21);
             this.bunifuLabel2.TabIndex = 81;
             this.bunifuLabel2.Text = "Event Details";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -397,12 +409,14 @@
             // 
             this.LblNameEvent.AllowParentOverrides = false;
             this.LblNameEvent.AutoEllipsis = false;
+            this.LblNameEvent.Cursor = System.Windows.Forms.Cursors.Default;
             this.LblNameEvent.CursorType = System.Windows.Forms.Cursors.Default;
             this.LblNameEvent.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblNameEvent.Location = new System.Drawing.Point(47, 190);
+            this.LblNameEvent.Location = new System.Drawing.Point(63, 234);
+            this.LblNameEvent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblNameEvent.Name = "LblNameEvent";
             this.LblNameEvent.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblNameEvent.Size = new System.Drawing.Size(67, 15);
+            this.LblNameEvent.Size = new System.Drawing.Size(83, 20);
             this.LblNameEvent.TabIndex = 82;
             this.LblNameEvent.Text = "Event Name:";
             this.LblNameEvent.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -414,10 +428,11 @@
             this.LblEventCategory.AutoEllipsis = false;
             this.LblEventCategory.CursorType = null;
             this.LblEventCategory.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblEventCategory.Location = new System.Drawing.Point(47, 211);
+            this.LblEventCategory.Location = new System.Drawing.Point(63, 260);
+            this.LblEventCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblEventCategory.Name = "LblEventCategory";
             this.LblEventCategory.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblEventCategory.Size = new System.Drawing.Size(83, 15);
+            this.LblEventCategory.Size = new System.Drawing.Size(103, 20);
             this.LblEventCategory.TabIndex = 83;
             this.LblEventCategory.Text = "Event Category:";
             this.LblEventCategory.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -429,10 +444,11 @@
             this.bunifuLabel5.AutoEllipsis = false;
             this.bunifuLabel5.CursorType = null;
             this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel5.Location = new System.Drawing.Point(47, 248);
+            this.bunifuLabel5.Location = new System.Drawing.Point(63, 305);
+            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel5.Name = "bunifuLabel5";
             this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(148, 17);
+            this.bunifuLabel5.Size = new System.Drawing.Size(176, 21);
             this.bunifuLabel5.TabIndex = 84;
             this.bunifuLabel5.Text = "Event Date and Location";
             this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -444,10 +460,11 @@
             this.LblEventDate.AutoEllipsis = false;
             this.LblEventDate.CursorType = null;
             this.LblEventDate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblEventDate.Location = new System.Drawing.Point(47, 279);
+            this.LblEventDate.Location = new System.Drawing.Point(63, 343);
+            this.LblEventDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblEventDate.Name = "LblEventDate";
             this.LblEventDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblEventDate.Size = new System.Drawing.Size(59, 15);
+            this.LblEventDate.Size = new System.Drawing.Size(75, 20);
             this.LblEventDate.TabIndex = 85;
             this.LblEventDate.Text = "Event Date:";
             this.LblEventDate.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -459,10 +476,11 @@
             this.LblEventTimeStart.AutoEllipsis = false;
             this.LblEventTimeStart.CursorType = null;
             this.LblEventTimeStart.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblEventTimeStart.Location = new System.Drawing.Point(47, 300);
+            this.LblEventTimeStart.Location = new System.Drawing.Point(63, 369);
+            this.LblEventTimeStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblEventTimeStart.Name = "LblEventTimeStart";
             this.LblEventTimeStart.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblEventTimeStart.Size = new System.Drawing.Size(88, 15);
+            this.LblEventTimeStart.Size = new System.Drawing.Size(111, 20);
             this.LblEventTimeStart.TabIndex = 86;
             this.LblEventTimeStart.Text = "Event Time Start:";
             this.LblEventTimeStart.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -474,10 +492,11 @@
             this.LblEventTimeEnd.AutoEllipsis = false;
             this.LblEventTimeEnd.CursorType = null;
             this.LblEventTimeEnd.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblEventTimeEnd.Location = new System.Drawing.Point(47, 321);
+            this.LblEventTimeEnd.Location = new System.Drawing.Point(63, 395);
+            this.LblEventTimeEnd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblEventTimeEnd.Name = "LblEventTimeEnd";
             this.LblEventTimeEnd.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblEventTimeEnd.Size = new System.Drawing.Size(84, 15);
+            this.LblEventTimeEnd.Size = new System.Drawing.Size(105, 20);
             this.LblEventTimeEnd.TabIndex = 87;
             this.LblEventTimeEnd.Text = "Event Time End:";
             this.LblEventTimeEnd.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -489,10 +508,11 @@
             this.bunifuLabel9.AutoEllipsis = false;
             this.bunifuLabel9.CursorType = null;
             this.bunifuLabel9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel9.Location = new System.Drawing.Point(47, 381);
+            this.bunifuLabel9.Location = new System.Drawing.Point(63, 469);
+            this.bunifuLabel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuLabel9.Name = "bunifuLabel9";
             this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel9.Size = new System.Drawing.Size(109, 17);
+            this.bunifuLabel9.Size = new System.Drawing.Size(129, 21);
             this.bunifuLabel9.TabIndex = 88;
             this.bunifuLabel9.Text = "Event Participants";
             this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -504,10 +524,11 @@
             this.LblAgeRestriction.AutoEllipsis = false;
             this.LblAgeRestriction.CursorType = null;
             this.LblAgeRestriction.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblAgeRestriction.Location = new System.Drawing.Point(47, 413);
+            this.LblAgeRestriction.Location = new System.Drawing.Point(63, 508);
+            this.LblAgeRestriction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblAgeRestriction.Name = "LblAgeRestriction";
             this.LblAgeRestriction.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblAgeRestriction.Size = new System.Drawing.Size(83, 15);
+            this.LblAgeRestriction.Size = new System.Drawing.Size(104, 20);
             this.LblAgeRestriction.TabIndex = 89;
             this.LblAgeRestriction.Text = "Age Restriction:";
             this.LblAgeRestriction.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -519,10 +540,11 @@
             this.LblEventCapacity.AutoEllipsis = false;
             this.LblEventCapacity.CursorType = null;
             this.LblEventCapacity.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblEventCapacity.Location = new System.Drawing.Point(47, 434);
+            this.LblEventCapacity.Location = new System.Drawing.Point(63, 534);
+            this.LblEventCapacity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblEventCapacity.Name = "LblEventCapacity";
             this.LblEventCapacity.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblEventCapacity.Size = new System.Drawing.Size(81, 15);
+            this.LblEventCapacity.Size = new System.Drawing.Size(100, 20);
             this.LblEventCapacity.TabIndex = 90;
             this.LblEventCapacity.Text = "Event Capacity:";
             this.LblEventCapacity.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -534,10 +556,11 @@
             this.LblEventLocation.AutoEllipsis = false;
             this.LblEventLocation.CursorType = null;
             this.LblEventLocation.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LblEventLocation.Location = new System.Drawing.Point(46, 342);
+            this.LblEventLocation.Location = new System.Drawing.Point(61, 421);
+            this.LblEventLocation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LblEventLocation.Name = "LblEventLocation";
             this.LblEventLocation.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.LblEventLocation.Size = new System.Drawing.Size(81, 15);
+            this.LblEventLocation.Size = new System.Drawing.Size(100, 20);
             this.LblEventLocation.TabIndex = 91;
             this.LblEventLocation.Text = "Event Location:";
             this.LblEventLocation.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -547,9 +570,11 @@
             // 
             this.EventName.AllowParentOverrides = false;
             this.EventName.AutoEllipsis = false;
+            this.EventName.Cursor = System.Windows.Forms.Cursors.Default;
             this.EventName.CursorType = System.Windows.Forms.Cursors.Default;
             this.EventName.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EventName.Location = new System.Drawing.Point(346, 190);
+            this.EventName.Location = new System.Drawing.Point(461, 234);
+            this.EventName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EventName.Name = "EventName";
             this.EventName.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EventName.Size = new System.Drawing.Size(0, 0);
@@ -563,7 +588,8 @@
             this.EventCategory.AutoEllipsis = false;
             this.EventCategory.CursorType = null;
             this.EventCategory.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EventCategory.Location = new System.Drawing.Point(346, 211);
+            this.EventCategory.Location = new System.Drawing.Point(461, 260);
+            this.EventCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EventCategory.Name = "EventCategory";
             this.EventCategory.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EventCategory.Size = new System.Drawing.Size(0, 0);
@@ -577,7 +603,8 @@
             this.EventDate.AutoEllipsis = false;
             this.EventDate.CursorType = null;
             this.EventDate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EventDate.Location = new System.Drawing.Point(346, 279);
+            this.EventDate.Location = new System.Drawing.Point(461, 343);
+            this.EventDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EventDate.Name = "EventDate";
             this.EventDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EventDate.Size = new System.Drawing.Size(0, 0);
@@ -591,7 +618,8 @@
             this.EventTimeStart.AutoEllipsis = false;
             this.EventTimeStart.CursorType = null;
             this.EventTimeStart.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EventTimeStart.Location = new System.Drawing.Point(346, 300);
+            this.EventTimeStart.Location = new System.Drawing.Point(461, 369);
+            this.EventTimeStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EventTimeStart.Name = "EventTimeStart";
             this.EventTimeStart.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EventTimeStart.Size = new System.Drawing.Size(0, 0);
@@ -605,7 +633,8 @@
             this.EventTimeEnd.AutoEllipsis = false;
             this.EventTimeEnd.CursorType = null;
             this.EventTimeEnd.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EventTimeEnd.Location = new System.Drawing.Point(346, 321);
+            this.EventTimeEnd.Location = new System.Drawing.Point(461, 395);
+            this.EventTimeEnd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EventTimeEnd.Name = "EventTimeEnd";
             this.EventTimeEnd.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EventTimeEnd.Size = new System.Drawing.Size(0, 0);
@@ -619,7 +648,8 @@
             this.EventLocation.AutoEllipsis = false;
             this.EventLocation.CursorType = null;
             this.EventLocation.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EventLocation.Location = new System.Drawing.Point(346, 342);
+            this.EventLocation.Location = new System.Drawing.Point(461, 421);
+            this.EventLocation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EventLocation.Name = "EventLocation";
             this.EventLocation.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EventLocation.Size = new System.Drawing.Size(0, 0);
@@ -633,7 +663,8 @@
             this.AgeRestriction.AutoEllipsis = false;
             this.AgeRestriction.CursorType = null;
             this.AgeRestriction.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.AgeRestriction.Location = new System.Drawing.Point(346, 413);
+            this.AgeRestriction.Location = new System.Drawing.Point(461, 508);
+            this.AgeRestriction.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AgeRestriction.Name = "AgeRestriction";
             this.AgeRestriction.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.AgeRestriction.Size = new System.Drawing.Size(0, 0);
@@ -647,7 +678,8 @@
             this.EventCapacity.AutoEllipsis = false;
             this.EventCapacity.CursorType = null;
             this.EventCapacity.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.EventCapacity.Location = new System.Drawing.Point(346, 434);
+            this.EventCapacity.Location = new System.Drawing.Point(461, 534);
+            this.EventCapacity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EventCapacity.Name = "EventCapacity";
             this.EventCapacity.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.EventCapacity.Size = new System.Drawing.Size(0, 0);
@@ -657,10 +689,10 @@
             // 
             // Confirmation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(516, 587);
+            this.ClientSize = new System.Drawing.Size(688, 722);
             this.Controls.Add(this.EventCapacity);
             this.Controls.Add(this.AgeRestriction);
             this.Controls.Add(this.EventLocation);
@@ -687,6 +719,7 @@
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.bunifuSeparator3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Confirmation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confirmation";
