@@ -1,13 +1,14 @@
-﻿using eventures.Models;
-using eventures.Database;
-using System;
+﻿using System;
 using System.Data.OleDb;
+
+using eventures.Models;
+using eventures.Database;
 
 namespace eventures.DataAccess
 {
     public class UserDAO
     {
-        public void AddUser(User user)
+        public int AddUser(User user)
         {
             using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
             {
@@ -25,6 +26,11 @@ namespace eventures.DataAccess
 
                     connection.Open();
                     cmd.ExecuteNonQuery();
+                    
+                    cmd.CommandText = "SELECT @@IDENTITY";
+                    var newUserId = Convert.ToInt32(cmd.ExecuteScalar());
+                    user.UserID = newUserId;
+                    return newUserId;
                 }
             }
         }

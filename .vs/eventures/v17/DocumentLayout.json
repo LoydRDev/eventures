@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\black\\onedrive\\desktop\\eventures\\eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\black\\onedrive\\desktop\\eventures\\eventures\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "eventures\\DataAccess\\UserDAO.cs",
               "ToolTip": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
               "RelativeToolTip": "eventures\\DataAccess\\UserDAO.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T07:19:13.69Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "eventures\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T07:18:28.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T07:18:28.263Z"
             },
             {
               "$type": "Document",
@@ -71,9 +70,8 @@
               "ToolTip": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\Forms\\Registration.cs",
               "RelativeToolTip": "eventures\\Forms\\Registration.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAowI8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T04:14:54.311Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-05-13T04:14:54.311Z"
             },
             {
               "$type": "Document",
@@ -83,9 +81,8 @@
               "RelativeDocumentMoniker": "eventures\\Forms\\Registration.cs",
               "ToolTip": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\Forms\\Registration.cs [Design]",
               "RelativeToolTip": "eventures\\Forms\\Registration.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T04:14:51.916Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-05-13T04:14:51.916Z"
             }
           ]
         }
