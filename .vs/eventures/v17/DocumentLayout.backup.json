@@ -30,8 +30,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Models\\User.cs",
+              "RelativeDocumentMoniker": "eventures\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Models\\User.cs",
+              "RelativeToolTip": "eventures\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:39:18.702Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "testcs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\testcs.cs",
+              "RelativeDocumentMoniker": "eventures\\Forms\\testcs.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\testcs.cs [Design]",
+              "RelativeToolTip": "eventures\\Forms\\testcs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:09:22.752Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
