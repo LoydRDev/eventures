@@ -272,6 +272,12 @@
     <Compile Include="Forms\OrganizeEvent.Designer.cs">
       <DependentUpon>OrganizeEvent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\testcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\testcs.Designer.cs">
+      <DependentUpon>testcs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />

@@ -11,34 +11,45 @@ namespace eventures.DataAccess
     {
         public void AddUser(User user)
         {
+            bool isSuccess = true;
             try
             {
                 using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
                 {
-                    string query = "INSERT INTO Users (FirstName, LastName, Username, Email, [Password], CreatedDate) " +
-                                   "VALUES (@FirstName, @LastName, @Username, @Email, @Password, @CreatedDate)";
+                    string query = "INSERT INTO Users (FirstName, LastName, Username, Email, [Password], DateCreated) " +
+                                   "VALUES (?, ?, ?, ?, ?, ?)";
 
                     using (OleDbCommand cmd = new OleDbCommand(query, connection))
                     {
-                        cmd.Parameters.AddWithValue("@FirstName", user.FirstName);
-                        cmd.Parameters.AddWithValue("@LastName", user.LastName);
-                        cmd.Parameters.AddWithValue("@Username", user.Username);
-                        cmd.Parameters.AddWithValue("@Email", user.Email);
-                        cmd.Parameters.AddWithValue("@Password", user.Password);
-                        cmd.Parameters.AddWithValue("@CreatedDate", user.DateCreated);
+                        cmd.Parameters.Add("?", OleDbType.VarChar).Value = user.FirstName;
+                        cmd.Parameters.Add("?", OleDbType.VarChar).Value = user.LastName;
+                        cmd.Parameters.Add("?", OleDbType.VarChar).Value = user.Username;
+                        cmd.Parameters.Add("?", OleDbType.VarChar).Value = user.Email;
+                        cmd.Parameters.Add("?", OleDbType.VarChar).Value = user.Password;
+                        cmd.Parameters.Add("?", OleDbType.Date).Value = user.DateCreated;
 
                         connection.Open();
                         int result = cmd.ExecuteNonQuery();
+                        connection.Close();
                     }
                 }
             }
             catch (OleDbException ex)
             {
+                isSuccess = false;
                 MessageBox.Show($"Database error occurred: {ex.Message}\nError code: {ex.ErrorCode}");
             }
             catch (Exception ex)
             {
+                isSuccess = false;
                 MessageBox.Show($"An unexpected error occurred: {ex.Message}");
+            }
+            finally
+            {
+                if (isSuccess)
+                {
+                    // display message
+                }
             }
         }
 
@@ -60,36 +71,19 @@ namespace eventures.DataAccess
                         {
                             return new User
                             {
-                                UserID = reader.GetInt32(1),
-                                FirstName = reader.GetString(2),
-                                LastName = reader.GetString(3),
-                                Username = reader.GetString(4),
-                                Email = reader.GetString(5),
-                                Password = reader.GetString(6),
-                                DateCreated = reader.GetDateTime(7)
+                                UserID = reader.GetInt32(0),
+                                FirstName = reader.GetString(1),
+                                LastName = reader.GetString(2),
+                                Username = reader.GetString(3),
+                                Email = reader.GetString(4),
+                                Password = reader.GetString(5),
+                                DateCreated = reader.GetDateTime(6)
                             };
                         }
                     }
                 }
             }
             return null;
-        }
-        public User GetUserByID(int uniqueUserID)
-        { 
-            return null; 
-        }
-
-        public User GenerateUniqueID()
-        {
-            Random random = new Random();
-            int uniqueUserID = random.Next(100000, 999999);
-            User user = GetUserByID(uniqueUserID);
-            while (user != null)
-            {
-                uniqueUserID = random.Next(100000, 999999);
-                user = GetUserByID(uniqueUserID);
-            }
-            return new User { UserID = uniqueUserID };
         }
     }
 }
