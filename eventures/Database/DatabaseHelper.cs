@@ -6,24 +6,27 @@ namespace eventures.Database
 {
     internal class DatabaseHelper
     {
-        public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Eventures.accdb;Persist Security Info=True";
+        public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\noemi\Documents\Eventures.accdb";
         public static OleDbConnection connection = null;
 
         public static OleDbConnection GetConnection()
         {
-            if (connection == null)
+            if (connection == null || connection.State == ConnectionState.Closed)
             {
                 connection = new OleDbConnection(connectionString);
+                connection.Open();
             }
             return connection;
         }
 
         public static void OpenConnection()
         {
-            if (connection != null && connection.State == ConnectionState.Closed)
+            if (connection == null)
             {
-                connection = new OleDbConnection();
-                connection.ConnectionString = connectionString;
+                connection = new OleDbConnection(connectionString);
+            }
+            if (connection.State == ConnectionState.Closed)
+            {
                 connection.Open();
             }
         }

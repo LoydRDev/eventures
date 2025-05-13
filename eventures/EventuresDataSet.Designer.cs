@@ -1171,8 +1171,8 @@ namespace eventures.EventuresDataSetTableAdapters {
             this._commandCollection = new global::System.Data.OleDb.OleDbCommand[1];
             this._commandCollection[0] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT UserID, FirstName, LastName, Email, PhoneNumber, Username, [Password], Cre" +
-                "atedDate FROM Users";
+            this._commandCollection[0].CommandText = "SELECT UserID, FirstName, LastName, Username, Email, [Password], CreatedDate FROM" +
+                " Users";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         

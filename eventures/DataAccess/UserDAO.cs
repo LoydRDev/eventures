@@ -3,37 +3,45 @@ using System.Data.OleDb;
 
 using eventures.Models;
 using eventures.Database;
+using System.Windows.Forms;
 
 namespace eventures.DataAccess
 {
     public class UserDAO
     {
-        public int AddUser(User user)
+        public void AddUser(User user)
         {
-            using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
+            try
             {
-                string query = "INSERT INTO Users (UserID, FirstName, LastName, Username, Email, [Password], CreatedDate) VALUES (@UserID, @FirstName, @LastName, @Username, @Email, @Password, @CreatedDate)";
-
-                using (OleDbCommand cmd = new OleDbCommand(query, connection))
+                using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
                 {
-                    cmd.Parameters.AddWithValue("@UserID", user.UserID);
-                    cmd.Parameters.AddWithValue("@FirstName", user.FirstName);
-                    cmd.Parameters.AddWithValue("@LastName", user.LastName);
-                    cmd.Parameters.AddWithValue("@Username", user.Username);
-                    cmd.Parameters.AddWithValue("@Email", user.Email);
-                    cmd.Parameters.AddWithValue("@Password", user.Password);
-                    cmd.Parameters.AddWithValue("@CreatedDate", user.CreatedDate);
+                    string query = "INSERT INTO Users (FirstName, LastName, Username, Email, [Password], CreatedDate) " +
+                                   "VALUES (@FirstName, @LastName, @Username, @Email, @Password, @CreatedDate)";
 
-                    connection.Open();
-                    cmd.ExecuteNonQuery();
-                    
-                    cmd.CommandText = "SELECT @@IDENTITY";
-                    var newUserId = Convert.ToInt32(cmd.ExecuteScalar());
-                    user.UserID = newUserId;
-                    return newUserId;
+                    using (OleDbCommand cmd = new OleDbCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@FirstName", user.FirstName);
+                        cmd.Parameters.AddWithValue("@LastName", user.LastName);
+                        cmd.Parameters.AddWithValue("@Username", user.Username);
+                        cmd.Parameters.AddWithValue("@Email", user.Email);
+                        cmd.Parameters.AddWithValue("@Password", user.Password);
+                        cmd.Parameters.AddWithValue("@CreatedDate", user.DateCreated);
+
+                        connection.Open();
+                        int result = cmd.ExecuteNonQuery();
+                    }
                 }
             }
+            catch (OleDbException ex)
+            {
+                MessageBox.Show($"Database error occurred: {ex.Message}\nError code: {ex.ErrorCode}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An unexpected error occurred: {ex.Message}");
+            }
         }
+
         public User AuthenticateUser(string username, string password)
         {
             using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
@@ -52,13 +60,13 @@ namespace eventures.DataAccess
                         {
                             return new User
                             {
-                                UserID = reader.GetInt32(0),
-                                FirstName = reader.GetString(1),
-                                LastName = reader.GetString(2),
-                                Username = reader.GetString(3),
-                                Email = reader.GetString(4),
-                                Password = reader.GetString(5),
-                                CreatedDate = reader.GetDateTime(6)
+                                UserID = reader.GetInt32(1),
+                                FirstName = reader.GetString(2),
+                                LastName = reader.GetString(3),
+                                Username = reader.GetString(4),
+                                Email = reader.GetString(5),
+                                Password = reader.GetString(6),
+                                DateCreated = reader.GetDateTime(7)
                             };
                         }
                     }

@@ -161,7 +161,6 @@ C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.Runtime.CompilerServ
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.Text.Json.xml
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.ValueTuple.xml
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.csproj.AssemblyReference.cache
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.BrowseEvent.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Dashboard.resources
@@ -186,7 +185,6 @@ C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.EventDetails.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.Participants.resources
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.EventHistory.resources
-C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Eventures.accdb
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Azure.Core.dll
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Azure.Identity.dll
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Microsoft.Bcl.Cryptography.dll
@@ -254,3 +252,12 @@ C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\ru\Microsoft.Data.SqlClient
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\tr\Microsoft.Data.SqlClient.resources.dll
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Microsoft.Bcl.Memory.dll
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Microsoft.Bcl.TimeProvider.dll
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.Formats.Asn1.dll
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.IO.Pipelines.dll
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Microsoft.Bcl.Memory.xml
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Microsoft.Bcl.TimeProvider.xml
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.Formats.Asn1.xml
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\System.IO.Pipelines.xml
+C:\Users\noemi\Desktop\eventures\eventures\bin\Debug\Eventures.accdb

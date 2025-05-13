@@ -26,7 +26,7 @@
               <DbSource ConnectionRef="EventuresConnectionString (Settings)" DbObjectName="Users" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>SELECT UserID, FirstName, LastName, Email, PhoneNumber, Username, [Password], CreatedDate FROM Users</CommandText>
+                    <CommandText>SELECT UserID, FirstName, LastName, Username, Email, [Password], CreatedDate FROM Users</CommandText>
                     <Parameters />
                   </DbCommand>
                 </SelectCommand>

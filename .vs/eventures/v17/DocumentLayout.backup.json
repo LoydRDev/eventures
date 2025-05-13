@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\noemi\\Desktop\\eventures\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\black\\onedrive\\desktop\\eventures\\eventures\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\black\\onedrive\\desktop\\eventures\\eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-=======
       "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|C:\\Users\\noemi\\Desktop\\eventures\\eventures\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|C:\\Users\\noemi\\Desktop\\eventures\\eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|C:\\Users\\noemi\\Desktop\\eventures\\eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
->>>>>>> ab07fdc57579cd213304c48415ac513a966983e5
-      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\forms\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\black\\onedrive\\desktop\\eventures\\eventures\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|C:\\Users\\noemi\\Desktop\\eventures\\eventures\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\forms\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,90 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Database\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "eventures\\Database\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Database\\DatabaseHelper.cs*",
+              "RelativeToolTip": "eventures\\Database\\DatabaseHelper.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:33:03.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\LoginPage.cs",
+              "RelativeDocumentMoniker": "eventures\\Forms\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\LoginPage.cs",
+              "RelativeToolTip": "eventures\\Forms\\LoginPage.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:07:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\LoginPage.cs",
+              "RelativeDocumentMoniker": "eventures\\Forms\\LoginPage.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\LoginPage.cs [Design]",
+              "RelativeToolTip": "eventures\\Forms\\LoginPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:07:37.352Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserDAO.cs",
-<<<<<<< HEAD
-              "DocumentMoniker": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
               "RelativeDocumentMoniker": "eventures\\DataAccess\\UserDAO.cs",
-              "ToolTip": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
               "RelativeToolTip": "eventures\\DataAccess\\UserDAO.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T07:19:13.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Models\\User.cs",
               "RelativeDocumentMoniker": "eventures\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Models\\User.cs",
               "RelativeToolTip": "eventures\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T07:18:28.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\Forms\\Registration.cs",
-              "RelativeDocumentMoniker": "eventures\\Forms\\Registration.cs",
-              "ToolTip": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\Forms\\Registration.cs",
-              "RelativeToolTip": "eventures\\Forms\\Registration.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAowI8AAAARAAAAAAAAAA==",
-=======
-              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
-              "RelativeDocumentMoniker": "eventures\\DataAccess\\UserDAO.cs",
-              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
-              "RelativeToolTip": "eventures\\DataAccess\\UserDAO.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwEQAAAABAAAAAAAAAA==",
->>>>>>> ab07fdc57579cd213304c48415ac513a966983e5
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:09:07.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-              "Title": "Registration.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\eventures\\Forms\\Registration.cs",
-=======
-              "DocumentIndex": 1,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Database\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "eventures\\Database\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Database\\DatabaseHelper.cs",
-              "RelativeToolTip": "eventures\\Database\\DatabaseHelper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAACaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:06:36.036Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Registration.cs",
               "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Registration.cs",
->>>>>>> ab07fdc57579cd213304c48415ac513a966983e5
               "RelativeDocumentMoniker": "eventures\\Forms\\Registration.cs",
               "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Registration.cs",
               "RelativeToolTip": "eventures\\Forms\\Registration.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowHkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAqwHwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T04:14:54.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Registration.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Registration.cs",
-              "RelativeDocumentMoniker": "eventures\\Forms\\Registration.cs",
-              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Registration.cs [Design]",
-              "RelativeToolTip": "eventures\\Forms\\Registration.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T04:14:51.916Z"
+              "WhenOpened": "2025-05-13T04:14:54.311Z",
+              "EditorCaption": ""
             }
           ]
         }

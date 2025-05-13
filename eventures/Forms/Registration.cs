@@ -114,33 +114,31 @@ namespace eventures
         {
             if (ValidateInputs())
             {
-                int uniqueUserID = new Random().Next(100000, 999999);
-                if (new UserDAO().GetUserByID(uniqueUserID) != null)
+                User newUser = new User
                 {
-                    MessageBox.Show("User ID already exists. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-                else 
-                {
-                    User newUser = new User
-                    {
-                        UserID = uniqueUserID,
-                        FirstName = TBUserFirstName.Text,
-                        LastName = TBUserLastName.Text,
-                        Username = TBUsername.Text,
-                        Email = TBUserEmail.Text,
-                        Password = TBUserPassword2.Text
-                    };
+                    FirstName = TBUserFirstName.Text,
+                    LastName = TBUserLastName.Text,
+                    Username = TBUsername.Text,
+                    Email = TBUserEmail.Text,
+                    Password = TBUserPassword2.Text,
+                    DateCreated = DateTime.Now,
+                };
 
-                    try
+                try
+                {
+                    new UserDAO().AddUser(newUser);
+                    var result = MessageBox.Show("User created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (result == DialogResult.OK)
                     {
-                        new UserDAO().AddUser(newUser);
-                        MessageBox.Show("User created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Hide();
+                        var loginPage = new LoginPage();
+                        loginPage.Closed += (s, args) => this.Close();
+                        loginPage.Show();
                     }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Error creating user: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error creating user: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }  
             }
         }
