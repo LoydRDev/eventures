@@ -126,7 +126,6 @@ C:\Users\noemi\Desktop\Visual Studio Repos\eventures_ui\eventures\obj\Debug\even
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.BrowseEvent.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Dashboard.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.JoinEvent.resources
-C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.MyEvents.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.OrganizeEvent.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.FrontPage.resources
 C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.LoginPage.resources
@@ -178,3 +177,8 @@ C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.csproj.CoreCompil
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.csproj.Up2Date
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.exe
 C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.pdb
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.EventHistory.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.DateAndLocation.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.EventDetails.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.Participants.resources
+C:\Users\black\OneDrive\Desktop\eventures\eventures\obj\Debug\eventures.Forms.CreateEvent.Confirmation.resources

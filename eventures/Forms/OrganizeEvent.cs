@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using eventures.Forms;
+using System;
 using System.Windows.Forms;
 
 namespace eventures
@@ -20,6 +14,14 @@ namespace eventures
         private void bunifuButton22_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnCreateEvent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var eventDetails = new EventDetails();
+            eventDetails.Closed += (s, args) => this.Close();
+            eventDetails.Show();
         }
     }
 }

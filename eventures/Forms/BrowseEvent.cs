@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using eventures.Forms;
+using System;
 using System.Windows.Forms;
 
 namespace eventures
@@ -17,9 +11,28 @@ namespace eventures
             InitializeComponent();
         }
 
-        private void BrowseEvent_Load(object sender, EventArgs e)
+        private void BtnDashboard_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var dashboard = new Dashboard();
+            dashboard.Closed += (s, args) => this.Close();
+            dashboard.Show();
+        }
 
+        private void BtnOrganizeEvent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var organizeEvent = new OrganizeEvent();
+            organizeEvent.Closed += (s, args) => this.Close();
+            organizeEvent.Show();
+        }
+
+        private void BtnEventHistory_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var eventHistory = new EventHistory();
+            eventHistory.Closed += (s, args) => this.Close();
+            eventHistory.Show();
         }
     }
 }

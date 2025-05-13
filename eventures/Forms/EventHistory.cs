@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace eventures
+namespace eventures.Forms
 {
-    public partial class MyEvents : Form
+    public partial class EventHistory: Form
     {
-        public MyEvents()
+        public EventHistory()
         {
             InitializeComponent();
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void bunifuLabel10_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
