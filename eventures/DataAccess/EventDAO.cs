@@ -3,6 +3,7 @@ using eventures.Database;
 using System;
 using System.Data.OleDb;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace eventures.DataAccess
 {
@@ -62,7 +63,7 @@ namespace eventures.DataAccess
             int rowCount = 0;
             try
             {
-                string query = $"SELECT COUNT(*) FROM Event";
+                string query = $"SELECT COUNT(*) FROM Events";
                 using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
                 {
                     using (OleDbCommand command = new OleDbCommand(query, connection))
@@ -79,6 +80,38 @@ namespace eventures.DataAccess
             }
             return rowCount;
         }
-        
+
+        public List<Event> GetEvents()
+        {
+            List<Event> events = new List<Event>();
+            using (OleDbConnection conn = new OleDbConnection(DatabaseHelper.connectionString))
+            {
+                string query = "SELECT EventID, EventName, Category, Description, EventDate, EventStart,EventEnd, Location, AgeRestriction, Capacity, CreatorID  FROM Events";
+                OleDbCommand cmd = new OleDbCommand(query, conn);
+                conn.Open();
+                OleDbDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    Event evt = new Event
+                    {
+                        EventID = Convert.ToInt32(reader["EventID"]),
+                        EventName = reader["EventName"].ToString(),
+                        Category = reader["Category"].ToString(),
+                        Description = reader["Description"].ToString(),
+                        EventDate = Convert.ToDateTime(reader["EventDate"].ToString()),
+                        EventStart = Convert.ToDateTime(reader["EventStart"].ToString()),
+                        EventEnd = Convert.ToDateTime(reader["EventEnd"].ToString()),
+                        Location = reader["Location"].ToString(),
+                        AgeRestriction = reader["AgeRestriction"].ToString(),
+                        Capacity = Convert.ToInt32(reader["Capacity"]),
+                        CreatorID = Convert.ToInt32(reader["CreatorID"])
+                    };
+                    events.Add(evt);
+                }
+                reader.Close();
+            }
+            return events;
+        }
     }
 }

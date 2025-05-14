@@ -13,6 +13,7 @@ namespace eventures
     public partial class Dashboard : Form
     {
         private string currentUsername;
+        Event events = new Event();
 
         public Dashboard(string username)
         {
@@ -84,7 +85,7 @@ namespace eventures
                 eventLogo.ColorContrastOnHover = 30;
                 eventLogo.Cursor = System.Windows.Forms.Cursors.Default;
                 eventLogo.DialogResult = System.Windows.Forms.DialogResult.None;
-                eventLogo.Image = ((System.Drawing.Image)(resources.GetObject("eventLogo1.Image")));
+                //eventLogo.Image = ((System.Drawing.Image)(resources.GetObject("eventLogo1.Image")));
                 eventLogo.ImageMargin = new System.Windows.Forms.Padding(0);
                 eventLogo.Location = new System.Drawing.Point(53, 28);
                 eventLogo.Name = "eventLogo"+i;
@@ -101,11 +102,11 @@ namespace eventures
                 lblEventName.CursorType = System.Windows.Forms.Cursors.Default;
                 lblEventName.Font = new System.Drawing.Font("Segoe UI", 9F);
                 lblEventName.Location = new System.Drawing.Point(53, 121);
-                lblEventName.Name = "LblEventName"+i;
+                lblEventName.Name = "lblEventName"+i;
                 lblEventName.RightToLeft = System.Windows.Forms.RightToLeft.No;
                 lblEventName.Size = new System.Drawing.Size(79, 15);
                 lblEventName.TabIndex = 1;
-                lblEventName.Text = "Event_Name;";
+                lblEventName.Text = "EventName"+1;
                 lblEventName.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
                 lblEventName.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
 

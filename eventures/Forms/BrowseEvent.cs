@@ -11,13 +11,6 @@ namespace eventures
             InitializeComponent();
         }
 
-        private void BtnDashboard_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            var dashboard = new Dashboard();
-            dashboard.Closed += (s, args) => this.Close();
-            dashboard.Show();
-        }
 
         private void BtnOrganizeEvent_Click(object sender, EventArgs e)
         {

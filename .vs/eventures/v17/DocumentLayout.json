@@ -1,7 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\black\\OneDrive\\Desktop\\eventures\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\noemi\\Desktop\\eventures\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\forms\\testcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\testcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\dataaccess\\eventdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\dataaccess\\eventdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\dataaccess\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|c:\\users\\noemi\\desktop\\eventures\\eventures\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A018A80F-1053-4756-AE7A-0128A3B5CF8C}|eventures\\eventures.csproj|solutionrelative:eventures\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,23 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "testcs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\testcs.cs",
+              "RelativeDocumentMoniker": "eventures\\Forms\\testcs.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\testcs.cs [Design]",
+              "RelativeToolTip": "eventures\\Forms\\testcs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:39:40.598Z",
+              "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "eventures\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Models\\Event.cs",
+              "RelativeToolTip": "eventures\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T08:04:58.589Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
+              "RelativeDocumentMoniker": "eventures\\DataAccess\\UserDAO.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\UserDAO.cs",
+              "RelativeToolTip": "eventures\\DataAccess\\UserDAO.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwHMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:57:07.9Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventDAO.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\EventDAO.cs",
+              "RelativeDocumentMoniker": "eventures\\DataAccess\\EventDAO.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\DataAccess\\EventDAO.cs",
+              "RelativeToolTip": "eventures\\DataAccess\\EventDAO.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAADwv3QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:55:39.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Dashboard.cs",
+              "RelativeDocumentMoniker": "eventures\\Forms\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Dashboard.cs",
+              "RelativeToolTip": "eventures\\Forms\\Dashboard.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADgv2sAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:51:38.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Dashboard.cs",
+              "RelativeDocumentMoniker": "eventures\\Forms\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\noemi\\Desktop\\eventures\\eventures\\Forms\\Dashboard.cs [Design]",
+              "RelativeToolTip": "eventures\\Forms\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:51:22.989Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

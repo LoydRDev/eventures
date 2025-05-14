@@ -812,7 +812,6 @@
             this.BtnDashboard.TextMarginLeft = 0;
             this.BtnDashboard.TextPadding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.BtnDashboard.UseDefaultRadiusAndThickness = true;
-            this.BtnDashboard.Click += new System.EventHandler(this.BtnDashboard_Click);
             // 
             // BrowseEvent
             // 

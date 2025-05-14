@@ -346,3 +346,4 @@ C:\Users\noemi\Desktop\Visual Studio Repos\eventures\eventures\obj\Debug\eventur
 C:\Users\noemi\Desktop\Visual Studio Repos\eventures\eventures\obj\Debug\eventures.LoginPage.resources
 C:\Users\noemi\Desktop\Visual Studio Repos\eventures\eventures\obj\Debug\eventures.Registration.resources
 C:\Users\noemi\Desktop\Visual Studio Repos\eventures\eventures\obj\Debug\eventures.Forms.testcs.resources
+C:\Users\noemi\Desktop\eventures\eventures\obj\Debug\eventures.Forms.testcs.resources

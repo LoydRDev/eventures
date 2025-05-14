@@ -15,8 +15,7 @@ namespace eventures.Models
         public string AgeRestriction { get; set; }
         public int Capacity { get; set; }
         public int CreatorID { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime DateCreated { get; set; }
 
-        public User Creator { get; set; }
     }
 }
