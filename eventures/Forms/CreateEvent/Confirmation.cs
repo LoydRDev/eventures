@@ -36,7 +36,6 @@ namespace eventures.Forms.CreateEvent
             if (result == DialogResult.Yes)
             {
                 eventDAO.CreateEvent(eventData);
-                MessageBox.Show("Event created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 var organizeEventForm = new OrganizeEvent();
                 organizeEventForm.Closed += (s, args) => this.Close();

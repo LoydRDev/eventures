@@ -26,7 +26,7 @@ namespace eventures.DataAccess
                         cmd.Parameters.Add("?", OleDbType.Date).Value = eventObj.EventStart;
                         cmd.Parameters.Add("?", OleDbType.Date).Value = eventObj.EventEnd;
                         cmd.Parameters.Add("?", OleDbType.VarWChar).Value = eventObj.Location;
-                        cmd.Parameters.Add("?", OleDbType.Integer).Value = eventObj.AgeRestriction;
+                        cmd.Parameters.Add("?", OleDbType.VarWChar).Value = eventObj.AgeRestriction;
                         cmd.Parameters.Add("?", OleDbType.Integer).Value = eventObj.Capacity;
                         cmd.Parameters.Add("?", OleDbType.VarWChar).Value = eventObj.Category;
                         cmd.Parameters.Add("?", OleDbType.Integer).Value = eventObj.CreatorID;
@@ -53,9 +53,32 @@ namespace eventures.DataAccess
             {
                 if (isSuccess)
                 {
-                    // display message
+                    var result = MessageBox.Show("Event created successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
         }
+        public int GetTableRowsCount()
+        {
+            int rowCount = 0;
+            try
+            {
+                string query = $"SELECT COUNT(*) FROM Event";
+                using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
+                {
+                    using (OleDbCommand command = new OleDbCommand(query, connection))
+                    {
+                        connection.Open();
+                        rowCount = (int)command.ExecuteScalar();
+                        connection.Close();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error retrieving row count: {ex.Message}");
+            }
+            return rowCount;
+        }
+        
     }
 }

@@ -34,7 +34,7 @@ namespace eventures
                 MessageBox.Show($"Welcome, {loggedInUser.FirstName}!", "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 this.Hide();
-                var dashboard = new Dashboard();
+                var dashboard = new Dashboard(username);
                 dashboard.FormClosed += (s, args) => this.Close();
                 dashboard.Show();
             }

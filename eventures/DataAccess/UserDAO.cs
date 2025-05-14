@@ -85,5 +85,35 @@ namespace eventures.DataAccess
             }
             return null;
         }
+
+        public User GetCurrentUser(string username)
+        {
+            using (OleDbConnection connection = new OleDbConnection(DatabaseHelper.connectionString))
+            {
+                string query = "SELECT * FROM Users WHERE Username = @Username";
+                using (OleDbCommand cmd = new OleDbCommand(query, connection))
+                {
+                    cmd.Parameters.AddWithValue("@Username", username);
+                    connection.Open();
+                    using (OleDbDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return new User
+                            {
+                                UserID = reader.GetInt32(0),
+                                FirstName = reader.GetString(1),
+                                LastName = reader.GetString(2),
+                                Username = reader.GetString(3),
+                                Email = reader.GetString(4),
+                                Password = reader.GetString(5),
+                                DateCreated = reader.GetDateTime(6)
+                            };
+                        }
+                    }
+                }
+            }
+            return null;
+        }
     }
 }
